@@ -63,4 +63,217 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+* {
+	box-sizing: border-box;	
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+	letter-spacing:.5px;
+}
+.navbar {
+	color: gray;
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 880px;
+}
+
+.innovation {
+	display: flex wrap;
+	text-align: center; 
+	width: 900px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.header {
+	Font-size: 100px;
+	display: flex;
+	margin:30px;
+	padding: 50 auto;
+}
+
+.header h1 {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.button12 {
+	display: flex;
+	font-size: 16px;
+	border: 1px solid red;
+	width: 100px
+	padding: 10px;	
+
+}
+.header-img.png {
+	display:inline-block;
+	padding-bottom: 50px;
+}
+
+.top-content {
+	padding-top: 20px;
+}
+
+.features {
+	width: 50%;
+	height: 150px;
+	display: inline-block;
+}
+
+.about {
+	width: 49%;
+	height: 150px;
+	display: inline-block;
+	position: right;
+}
+
+.bottom-content {
+	padding-top: 20px;
+}
+
+.services {
+	width: 33%;
+	height: 150px;
+	display: inline-block;
+	padding:20px;
+}
+
+.product {
+	width: 33%;
+	height: 150px;
+	display: inline-block;
+	padding:20px;
+}
+
+.vision {
+	width: 33%;
+	height: 150px;
+	display: inline-block;
+	padding:20px;
+}
+
+.line {
+	padding-top: 20px;
+}
+
+.contact {
+	padding-top: 20px;
+
+}
+.copyright {
+	padding-top: 80px;
+	text-align: center;
+}
+
+/* Continue project after this line */
+
+.services-header-img {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+.top-content2 {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 11px;
+}
+
+.boxes{
+	padding-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; 
+}
+
+.Digital {
+	padding: 10px;
+	width: 48%;
+  height: 200px;
+  background: rgb(230, 230, 230);
+  border: 1px solid black;
+	display: flex wrap;
+	margin-bottom: 40px;
+}
+
+.UI {
+	padding: 10px;
+	width: 48%;
+  height: 200px;
+  background: rgb(230, 230, 230);
+  border: 1px solid black;
+	display: flex wrap;
+	margin-bottom: 40px;
+}	
+
+.marketing {
+	padding: 10px;
+	width:48%;
+  height: 200px;
+  background: rgb(230, 230, 230);
+  border: 1px solid black;
+	display: flex wrap;
+	margin-bottom: 40px;
+}
+
+.web-dev {
+	padding: 10px;
+	width: 48%;
+  height: 200px;
+  background: rgb(230, 230, 230);
+  border: 1px solid black;
+	display: flex wrap;
+	margin-bottom: 40px;
+}
+
+.IOS {
+	padding: 10px;
+	width: 48%;
+  height: 200px;
+  background: rgb(230, 230, 230);
+  border: 1px solid black;
+	display: flex wrap;
+	margin-bottom: 40px;
+}
+
+.android {
+	padding: 10px;
+	width: 48%;
+  height: 200px;
+  background: rgb(230, 230, 230);
+  border: 1px solid black;
+	display: flex wrap;
+	margin-bottom: 40px;
+}
+
+.bottom-page {
+	padding-top:20px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.services {
+	width: 50%;
+	padding: 0px;
+}
+
+.button {
+	margin: 0 10px;
+  border: 1px solid black;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.copyright2 {
+	padding-top: 90px;
+	text-align: center;
+}
