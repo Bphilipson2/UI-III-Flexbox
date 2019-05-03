@@ -63,4 +63,226 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+* {
+	box-sizing: border-box;	
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+	letter-spacing:.5px;
+}
+.navbar {
+	color: gray;
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 880px;
+}
+
+.innovation {
+	display: flex;
+	flex-flow:row wrap;
+	width: 900px;
+}
+
+.header .button2 {
+	display: flex;
+	justify-content: center;
+	margin: 0px 10px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+	margin-bottom: 20px;
+	background: white;
+	width: 150px;
+}
+
+.header {
+	Font-size: 100px;
+	height: 400px;
+	display: flex;
+	margin:30px;
+	border: 1px solid red;
+}
+
+.header h1 {
+	text-align: center;
+	border: 1px solid blue;
+}
+
+.top-content {
+	padding-left:14px;
+	width: 900px;
+	display: flex;
+	align-content: space-between;
+}
+
+.features {
+	height: 150px;
+	width:auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 3px;
+}
+
+.about {
+	height: 150px;
+	width: auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 20px;
+}
+
+.middle-img {
+	padding-left: 10px;
+}
+
+.bottom-content {
+	padding:20px 0px 0px 15px;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-start;
+}
+
+.services1 {
+	height: 180px;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 2px;
+}
+
+.product {
+	height: 180px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px;
+}
+
+.vision {
+	height: 180px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2px;
+}
+
+.contact {
+	padding-top: 20px;
+
+}
+.copyright {
+	padding-top: 80px;
+	text-align: center;
+}
+
+/* Continue project after this line */
+
+.services-header-img {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+.top-content2 {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 11px;
+}
+
+.boxes{
+	padding-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; 
+}
+
+.Digital {
+	padding: 10px;
+	width: 48%;
+  height: 200px;
+  background: rgb(230, 230, 230);
+  border: 1px solid black;
+	display: flex wrap;
+	margin-bottom: 40px;
+}
+
+.UI {
+	padding: 10px;
+	width: 48%;
+  height: 200px;
+  background: rgb(230, 230, 230);
+  border: 1px solid black;
+	display: flex wrap;
+	margin-bottom: 40px;
+}	
+
+.marketing {
+	padding: 10px;
+	width:48%;
+  height: 200px;
+  background: rgb(230, 230, 230);
+  border: 1px solid black;
+	display: flex wrap;
+	margin-bottom: 40px;
+}
+
+.web-dev {
+	padding: 10px;
+	width: 48%;
+  height: 200px;
+  background: rgb(230, 230, 230);
+  border: 1px solid black;
+	display: flex wrap;
+	margin-bottom: 40px;
+}
+
+.IOS {
+	padding: 10px;
+	width: 48%;
+  height: 200px;
+  background: rgb(230, 230, 230);
+  border: 1px solid black;
+	display: flex wrap;
+	margin-bottom: 40px;
+}
+
+.android {
+	padding: 10px;
+	width: 48%;
+  height: 200px;
+  background: rgb(230, 230, 230);
+  border: 1px solid black;
+	display: flex wrap;
+	margin-bottom: 40px;
+}
+
+.bottom-page {
+	padding-top:20px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.services2 {
+	width: 50%;
+	padding: 0px;
+}
+
+.button {
+	margin: 0 10px;
+  border: 1px solid black;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.copyright2 {
+	padding-top: 90px;
+	text-align: center;
+}
